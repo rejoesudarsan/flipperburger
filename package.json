@@ -1,0 +1,21 @@
+{
+  "name": "flipperburger",
+  "version": "0.1.0",
+  "description": "Install the flipperburger agent skill for supported coding agents.",
+  "license": "UNLICENSED",
+  "type": "commonjs",
+  "bin": {
+    "flipperburger": "bin/flipperburger.js"
+  },
+  "files": [
+    "bin",
+    "lib",
+    "skills"
+  ],
+  "engines": {
+    "node": ">=18"
+  },
+  "scripts": {
+    "test": "node --test"
+  }
+}
