@@ -13,8 +13,6 @@ app.
 
 ## Install
 
-After the npm package is published:
-
 ```sh
 npx flipperburger install --agent all --scope project
 ```
@@ -63,13 +61,10 @@ npm test
 npm pack
 ```
 
-The package has not been published to npm. Until it is, use the tarball made by
-`npm pack` with the locally verified command:
+To test a local tarball made by `npm pack` before publishing a change:
 
 ```sh
 npx --yes --package ./flipperburger-0.1.0.tgz -- flipperburger install --dir /path/to/project
 ```
 
-Publishing the npm package or creating a hosted Git repository is a separate
-step. The local repository and tarball can be reviewed first. The package is
-marked `UNLICENSED` until its owner chooses distribution terms.
+The package is distributed under the MIT license.

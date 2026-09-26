@@ -2,7 +2,7 @@
   "name": "flipperburger",
   "version": "0.1.0",
   "description": "Install the flipperburger agent skill for supported coding agents.",
-  "license": "UNLICENSED",
+  "license": "MIT",
   "type": "commonjs",
   "bin": {
     "flipperburger": "bin/flipperburger.js"
